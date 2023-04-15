@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body {
+	font-family: "Overpass", sans-serif;
+    background-color: rgb(123, 139, 192);
+    background-image: url(./FateArtFolder/Chaldea_Logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+	list-style: none;
+    object-fit: cover;
+}
+
+.card_container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+.card {
+    flex-basis: calc(20%-10px);
+	max-width: 100%;
+    border: solid;
+    border-color: rgb(204, 183, 183);
+    margin: 5px;
+    box-sizing: border-box;
+}
+.card_title {
+	text-align:start;
+	font-size: 1.3em;
+	margin-block: 5px;
+    color: rgb(199, 211, 35);
+}
+.card_img {
+    height: 150px;
+    max-width: 100%;
+	box-shadow: 20px 19px 46px -13px rgba(84, 67, 67, 0.78);
+	margin-bottom: 1em;
+    object-fit: cover;
+}
+.card_text {
+	line-height: 1.5em;
+	font-size: 0.9em;
+	margin-block: 0.5em;
+    padding: 0.1rem;
+    color: rgb(199, 211, 35);
+}
+
+.star {
+    color: gold;
+    font-size: 1.2em;
+    text-indent: 0.5em;
+    text-size-adjust: 1px;
+    margin-top: 0.1em;
+}
+
+.card_attributes {
+	font-size: 0.8em;
+	position: relative;
+    color: rgb(199, 211, 35);
+}
+
+span {
+	position:inherit;
+	right: 0px;
+}
